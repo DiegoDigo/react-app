@@ -1,0 +1,13 @@
+nav {
+    height: 75px;
+    background-color: #795548;
+}
+
+nav ul li {
+    padding-top: 6px;
+}
+
+li a:hover {
+    background-color: #fff !important;
+    color: #795548;
+}
