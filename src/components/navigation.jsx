@@ -18,14 +18,12 @@ export default class Navigation extends Component {
     render() {
         return (
             <Navbar brand='ManagerHours' right className="navbar_my">
-                <NavItem href=''>Dashboard<Icon left>dashboard</Icon></NavItem>
+                <NavItem >Dashboard<Icon left>dashboard</Icon></NavItem>
                 <Dropdown trigger={
-                    <NavItem>Usuario<Icon left>account_circle</Icon></NavItem>                
+                        <NavItem ref="teste3">Usuario<Icon left>account_circle</Icon></NavItem>                
                     }>
                     <NavItem>one</NavItem>
-                    <NavItem>two</NavItem>
-                    <NavItem divider />
-                    <NavItem>three</NavItem>
+                    <NavItem>two</NavItem>                    
                 </Dropdown>
                 
             </Navbar>

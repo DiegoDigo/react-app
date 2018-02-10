@@ -19,3 +19,8 @@ li a:hover {
     background-color: #fff !important;
     color: #795548;    
 }
+
+nav .nav-wrapper form, nav .nav-wrapper form .input-field{
+    height: 100%;
+}
+    
