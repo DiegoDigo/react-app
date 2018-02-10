@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import { Row } from 'react-materialize'
+
 import './stylers/home.css';
 
-import Card from '../components/card'
+import CardDias from '../components/card'
 import Navigation from '../components/navigation';
-import Tabs from '../components/tabs';
 
 export default class Home extends Component {
     
@@ -20,14 +20,13 @@ export default class Home extends Component {
     render () {
         return (
             <div>
-                <Navigation />                
-                <Tabs />
-                <Card />
+                <Navigation />
+                <Row>            
+                    <div id="container">
+                        <CardDias />  
+                    </div>
+                </Row>
             </div>
         )
     }
-}
-
-Home.propTypes = {
-    
 }

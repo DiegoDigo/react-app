@@ -1,13 +1,21 @@
-nav {
+.navbar_my {
     height: 75px;
     background-color: #795548;
+    padding-left:  50px;
+    padding-right: 50px;
 }
 
-nav ul li {
+.navbar_my ul li {
     padding-top: 6px;
+}
+
+.navbar_my a.brand-logo {
+    padding-top: 6px;
+    font-family: 'Merienda One', cursive;   
+    font-weight: 600 !important;
 }
 
 li a:hover {
     background-color: #fff !important;
-    color: #795548;
+    color: #795548;    
 }
